@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/xtls/xray-core/common/geodata/strmatcher"
+	. "github.com/stereomonk/xray-core-awg/common/geodata/strmatcher"
 )
 
 func TestFullMatcherGroup(t *testing.T) {

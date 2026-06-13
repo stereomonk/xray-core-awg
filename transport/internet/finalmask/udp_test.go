@@ -12,14 +12,14 @@ import (
 
 	singM "github.com/sagernet/sing/common/metadata"
 	singN "github.com/sagernet/sing/common/network"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/transport/internet/finalmask"
-	"github.com/xtls/xray-core/transport/internet/finalmask/header/custom"
-	"github.com/xtls/xray-core/transport/internet/finalmask/mkcp/aes128gcm"
-	"github.com/xtls/xray-core/transport/internet/finalmask/mkcp/header"
-	"github.com/xtls/xray-core/transport/internet/finalmask/mkcp/original"
-	"github.com/xtls/xray-core/transport/internet/finalmask/salamander"
-	"github.com/xtls/xray-core/transport/internet/finalmask/sudoku"
+	"github.com/stereomonk/xray-core-awg/proxy"
+	"github.com/stereomonk/xray-core-awg/transport/internet/finalmask"
+	"github.com/stereomonk/xray-core-awg/transport/internet/finalmask/header/custom"
+	"github.com/stereomonk/xray-core-awg/transport/internet/finalmask/mkcp/aes128gcm"
+	"github.com/stereomonk/xray-core-awg/transport/internet/finalmask/mkcp/header"
+	"github.com/stereomonk/xray-core-awg/transport/internet/finalmask/mkcp/original"
+	"github.com/stereomonk/xray-core-awg/transport/internet/finalmask/salamander"
+	"github.com/stereomonk/xray-core-awg/transport/internet/finalmask/sudoku"
 )
 
 func mustSendRecv(

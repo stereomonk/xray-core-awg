@@ -3,7 +3,7 @@ package shadowsocks_2022
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/stereomonk/xray-core-awg/common/protocol"
 )
 
 // MemoryAccount is an account type converted from Account.

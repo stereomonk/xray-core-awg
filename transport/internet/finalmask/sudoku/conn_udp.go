@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/errors"
 )
 
 type udpConn struct {

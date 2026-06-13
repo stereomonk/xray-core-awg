@@ -9,13 +9,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/utils"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet/tagged"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/platform/filesystem"
+	"github.com/stereomonk/xray-core-awg/common/task"
+	"github.com/stereomonk/xray-core-awg/common/utils"
+	"github.com/stereomonk/xray-core-awg/features/routing"
+	"github.com/stereomonk/xray-core-awg/transport/internet/tagged"
 )
 
 const idleTimeout = 30 * time.Second

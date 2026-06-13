@@ -3,7 +3,7 @@ package xdns
 import (
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/errors"
 )
 
 type domainSpec struct {

@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/utils"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/utils"
+	"github.com/stereomonk/xray-core-awg/main/confloader"
 )
 
 func ConfigLoader(arg string) (out io.Reader, err error) {

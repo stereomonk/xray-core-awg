@@ -7,13 +7,13 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/utils"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/utils"
+	"github.com/stereomonk/xray-core-awg/transport/internet"
+	"github.com/stereomonk/xray-core-awg/transport/internet/stat"
+	"github.com/stereomonk/xray-core-awg/transport/internet/tls"
 )
 
 type ConnRF struct {

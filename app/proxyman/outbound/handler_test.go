@@ -8,17 +8,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/app/policy"
-	"github.com/xtls/xray-core/app/proxyman"
-	. "github.com/xtls/xray-core/app/proxyman/outbound"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/session"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/proxy/freedom"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/stereomonk/xray-core-awg/app/policy"
+	"github.com/stereomonk/xray-core-awg/app/proxyman"
+	. "github.com/stereomonk/xray-core-awg/app/proxyman/outbound"
+	"github.com/stereomonk/xray-core-awg/app/stats"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/serial"
+	"github.com/stereomonk/xray-core-awg/common/session"
+	core "github.com/stereomonk/xray-core-awg/core"
+	"github.com/stereomonk/xray-core-awg/features/outbound"
+	"github.com/stereomonk/xray-core-awg/proxy/freedom"
+	"github.com/stereomonk/xray-core-awg/transport/internet/stat"
 )
 
 func TestInterfaces(t *testing.T) {

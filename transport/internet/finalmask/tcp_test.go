@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/transport/internet/finalmask"
-	"github.com/xtls/xray-core/transport/internet/finalmask/header/custom"
+	"github.com/stereomonk/xray-core-awg/transport/internet/finalmask"
+	"github.com/stereomonk/xray-core-awg/transport/internet/finalmask/header/custom"
 )
 
 func mustSendRecvTcp(

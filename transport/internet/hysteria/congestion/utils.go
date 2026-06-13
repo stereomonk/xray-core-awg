@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/apernet/quic-go"
-	"github.com/xtls/xray-core/transport/internet/hysteria/congestion/bbr"
-	"github.com/xtls/xray-core/transport/internet/hysteria/congestion/brutal"
+	"github.com/stereomonk/xray-core-awg/transport/internet/hysteria/congestion/bbr"
+	"github.com/stereomonk/xray-core-awg/transport/internet/hysteria/congestion/brutal"
 )
 
 const (

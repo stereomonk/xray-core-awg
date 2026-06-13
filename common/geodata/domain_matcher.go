@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/geodata/strmatcher"
-	"github.com/xtls/xray-core/common/utils"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/geodata/strmatcher"
+	"github.com/stereomonk/xray-core-awg/common/utils"
 )
 
 type DomainMatcher interface {

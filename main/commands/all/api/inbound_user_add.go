@@ -4,21 +4,21 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/stereomonk/xray-core-awg/common/protocol"
 
-	handlerService "github.com/xtls/xray-core/app/proxyman/command"
-	cserial "github.com/xtls/xray-core/common/serial"
+	handlerService "github.com/stereomonk/xray-core-awg/app/proxyman/command"
+	cserial "github.com/stereomonk/xray-core-awg/common/serial"
 
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
-	"github.com/xtls/xray-core/proxy/shadowsocks_2022"
-	"github.com/xtls/xray-core/proxy/trojan"
-	vlessin "github.com/xtls/xray-core/proxy/vless/inbound"
-	vmessin "github.com/xtls/xray-core/proxy/vmess/inbound"
+	"github.com/stereomonk/xray-core-awg/core"
+	"github.com/stereomonk/xray-core-awg/infra/conf"
+	"github.com/stereomonk/xray-core-awg/infra/conf/serial"
+	"github.com/stereomonk/xray-core-awg/proxy/shadowsocks"
+	"github.com/stereomonk/xray-core-awg/proxy/shadowsocks_2022"
+	"github.com/stereomonk/xray-core-awg/proxy/trojan"
+	vlessin "github.com/stereomonk/xray-core-awg/proxy/vless/inbound"
+	vmessin "github.com/stereomonk/xray-core-awg/proxy/vmess/inbound"
 
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/stereomonk/xray-core-awg/main/commands/base"
 )
 
 var cmdAddInboundUsers = &base.Command{

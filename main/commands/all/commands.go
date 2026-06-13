@@ -1,10 +1,10 @@
 package all
 
 import (
-	"github.com/xtls/xray-core/main/commands/all/api"
-	"github.com/xtls/xray-core/main/commands/all/convert"
-	"github.com/xtls/xray-core/main/commands/all/tls"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/stereomonk/xray-core-awg/main/commands/all/api"
+	"github.com/stereomonk/xray-core-awg/main/commands/all/convert"
+	"github.com/stereomonk/xray-core-awg/main/commands/all/tls"
+	"github.com/stereomonk/xray-core-awg/main/commands/base"
 )
 
 func init() {

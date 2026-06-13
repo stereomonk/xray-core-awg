@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/task"
+	"github.com/stereomonk/xray-core-awg/common"
+	. "github.com/stereomonk/xray-core-awg/common/task"
 )
 
 func TestPeriodicTaskStop(t *testing.T) {

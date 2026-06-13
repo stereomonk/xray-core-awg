@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/geodata/strmatcher"
+	"github.com/stereomonk/xray-core-awg/common"
+	. "github.com/stereomonk/xray-core-awg/common/geodata/strmatcher"
 )
 
 // See https://github.com/v2fly/v2ray-core/issues/92#issuecomment-673238489

@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/geodata/strmatcher"
+	"github.com/stereomonk/xray-core-awg/common"
+	. "github.com/stereomonk/xray-core-awg/common/geodata/strmatcher"
 )
 
 func TestSimpleMatcherGroup(t *testing.T) {

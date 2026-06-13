@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/xtls/xray-core/app/geodata"
-	. "github.com/xtls/xray-core/infra/conf"
+	"github.com/stereomonk/xray-core-awg/app/geodata"
+	. "github.com/stereomonk/xray-core-awg/infra/conf"
 )
 
 func TestGeodataConfig(t *testing.T) {

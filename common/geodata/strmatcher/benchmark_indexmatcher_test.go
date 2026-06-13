@@ -3,7 +3,7 @@ package strmatcher_test
 import (
 	"testing"
 
-	. "github.com/xtls/xray-core/common/geodata/strmatcher"
+	. "github.com/stereomonk/xray-core-awg/common/geodata/strmatcher"
 )
 
 func BenchmarkLinearIndexMatcher(b *testing.B) {

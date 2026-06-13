@@ -9,8 +9,8 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/xtls/xray-core/main/commands/base"
-	. "github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/stereomonk/xray-core-awg/main/commands/base"
+	. "github.com/stereomonk/xray-core-awg/transport/internet/tls"
 )
 
 var cmdHash = &base.Command{

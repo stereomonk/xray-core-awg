@@ -4,9 +4,9 @@ import (
 	"net/url"
 
 	"github.com/robfig/cron/v3"
-	"github.com/xtls/xray-core/app/geodata"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/platform/filesystem"
+	"github.com/stereomonk/xray-core-awg/app/geodata"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/platform/filesystem"
 	"google.golang.org/protobuf/proto"
 )
 

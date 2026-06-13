@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/transport/internet/finalmask"
+	"github.com/stereomonk/xray-core-awg/transport/internet/finalmask"
 )
 
 func TestMetadataEvaluatorRejectsUnknownName(t *testing.T) {

@@ -3,9 +3,9 @@ package pipe
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/signal/done"
-	"github.com/xtls/xray-core/features/policy"
+	"github.com/stereomonk/xray-core-awg/common/signal"
+	"github.com/stereomonk/xray-core-awg/common/signal/done"
+	"github.com/stereomonk/xray-core-awg/features/policy"
 )
 
 // Option for creating new Pipes.

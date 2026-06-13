@@ -3,9 +3,9 @@ package api
 import (
 	"fmt"
 
-	handlerService "github.com/xtls/xray-core/app/proxyman/command"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/commands/base"
+	handlerService "github.com/stereomonk/xray-core-awg/app/proxyman/command"
+	"github.com/stereomonk/xray-core-awg/infra/conf/serial"
+	"github.com/stereomonk/xray-core-awg/main/commands/base"
 )
 
 var cmdRemoveInbounds = &base.Command{
