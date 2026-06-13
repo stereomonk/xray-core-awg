@@ -14,6 +14,25 @@ message PeerConfig {
   repeated string allowed_ips = 5;
 }
 
+message AmneziaParamters {
+  int32 JC = 1;
+  int32 j_min = 2;
+  int32 j_max = 3;
+  int32 s1 = 4;
+  int32 s2 = 5;
+  int32 s3 = 6;
+  int32 s4 = 7;
+  string h1 = 8;
+  string h2 = 9;
+  string h3 = 10;
+  string h4 = 11;
+  string i1 = 12;
+  string i2 = 13;
+  string i3 = 14;
+  string i4 = 15;
+  string i5 = 16;
+}
+
 message DeviceConfig {
   enum DomainStrategy {
     FORCE_IP = 0;
@@ -31,4 +50,5 @@ message DeviceConfig {
   DomainStrategy domain_strategy = 7;
   bool is_client = 8;
   bool no_kernel_tun = 9;
+  optional AmneziaParamters Amnezia = 10;
 }

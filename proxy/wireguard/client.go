@@ -24,6 +24,7 @@ import (
 	"context"
 	"fmt"
 	"net/netip"
+	"reflect"
 	"strings"
 	"sync"
 
@@ -280,6 +281,37 @@ func (h *Handler) createIPCRequest() string {
 	var request strings.Builder
 
 	request.WriteString(fmt.Sprintf("private_key=%s\n", h.conf.SecretKey))
+
+	if h.conf.Amnezia != nil {
+		// write parametr helper function
+		_wp := func(name string, value any) {
+			// check if not 0 or "", for safe use only Get*
+			if !reflect.ValueOf(value).IsZero() {
+				request.WriteString(fmt.Sprintf("%s=%v\n", name, value))
+			}
+		}
+		awg := h.conf.Amnezia
+
+		_wp("jc", awg.GetJC())
+		_wp("jmin", awg.GetJMin())
+		_wp("jmax", awg.GetJMax())
+
+		_wp("s1", awg.GetS1())
+		_wp("s2", awg.GetS2())
+		_wp("s3", awg.GetS3())
+		_wp("s4", awg.GetS4())
+
+		_wp("h1", awg.GetH1())
+		_wp("h2", awg.GetH2())
+		_wp("h3", awg.GetH3())
+		_wp("h4", awg.GetH4())
+
+		_wp("i1", awg.GetI1())
+		_wp("i2", awg.GetI2())
+		_wp("i3", awg.GetI3())
+		_wp("i4", awg.GetI4())
+		_wp("i5", awg.GetI5())
+	}
 
 	if !h.conf.IsClient {
 		// placeholder, we'll handle actual port listening on Xray

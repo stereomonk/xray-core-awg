@@ -48,6 +48,28 @@ func (c *WireGuardPeerConfig) Build() (proto.Message, error) {
 	return config, nil
 }
 
+type AmneziaParameters struct {
+	JunkCount int32 `json:"jc"`
+	JunkMin   int32 `json:"jmin"`
+	JunkMax   int32 `json:"jmax"`
+
+	InitPadding      int32 `json:"s1"`
+	ResponsePadding  int32 `json:"s2"`
+	CookiePadding    int32 `json:"s3"`
+	TransportPadding int32 `json:"s4"`
+
+	InitHeader      string `json:"h1"`
+	ResponseHeader  string `json:"h2"`
+	CookieHeader    string `json:"h3"`
+	TransportHeader string `json:"h4"`
+
+	Signature1 string `json:"i1"`
+	Signature2 string `json:"i2"`
+	Signature3 string `json:"i3"`
+	Signature4 string `json:"i4"`
+	Signature5 string `json:"i5"`
+}
+
 type WireGuardConfig struct {
 	IsClient bool `json:""`
 
@@ -59,6 +81,7 @@ type WireGuardConfig struct {
 	NumWorkers     int32                  `json:"workers"`
 	Reserved       []byte                 `json:"reserved"`
 	DomainStrategy string                 `json:"domainStrategy"`
+	Amnezia        *AmneziaParameters     `json:"awg,omitempty"`
 }
 
 func (c *WireGuardConfig) Build() (proto.Message, error) {
@@ -119,6 +142,28 @@ func (c *WireGuardConfig) Build() (proto.Message, error) {
 
 	config.IsClient = c.IsClient
 	config.NoKernelTun = c.NoKernelTun
+
+	config.Amnezia = &wireguard.AmneziaParamters{
+		JC:   c.Amnezia.JunkCount,
+		JMin: c.Amnezia.JunkMin,
+		JMax: c.Amnezia.JunkMax,
+
+		S1: c.Amnezia.InitPadding,
+		S2: c.Amnezia.ResponsePadding,
+		S3: c.Amnezia.CookiePadding,
+		S4: c.Amnezia.TransportPadding,
+
+		H1: c.Amnezia.InitHeader,
+		H2: c.Amnezia.ResponseHeader,
+		H3: c.Amnezia.CookieHeader,
+		H4: c.Amnezia.TransportHeader,
+
+		I1: c.Amnezia.Signature1,
+		I2: c.Amnezia.Signature2,
+		I3: c.Amnezia.Signature3,
+		I4: c.Amnezia.Signature4,
+		I5: c.Amnezia.Signature5,
+	}
 
 	return config, nil
 }
