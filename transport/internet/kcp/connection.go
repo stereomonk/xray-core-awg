@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/signal/semaphore"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/signal"
+	"github.com/stereomonk/xray-core-awg/common/signal/semaphore"
 )
 
 var (

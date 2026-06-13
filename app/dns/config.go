@@ -1,10 +1,10 @@
 package dns
 
 import (
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/strmatcher"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/strmatcher"
+	"github.com/stereomonk/xray-core-awg/common/uuid"
 )
 
 var typeMap = map[DomainMatchingType]strmatcher.Type{

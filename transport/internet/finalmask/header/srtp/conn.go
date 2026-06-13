@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"net"
 
-	"github.com/xtls/xray-core/common/dice"
+	"github.com/stereomonk/xray-core-awg/common/dice"
 )
 
 type srtp struct {

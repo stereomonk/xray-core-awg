@@ -3,9 +3,9 @@ package internet
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/transport/internet/stat"
 )
 
 var transportListenerCache = make(map[string]ListenFunc)

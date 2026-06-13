@@ -8,11 +8,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/trojan"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/protocol"
+	"github.com/stereomonk/xray-core-awg/common/serial"
+	"github.com/stereomonk/xray-core-awg/proxy/trojan"
 	"google.golang.org/protobuf/proto"
 )
 

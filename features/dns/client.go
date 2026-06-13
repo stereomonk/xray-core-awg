@@ -1,10 +1,10 @@
 package dns
 
 import (
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/features"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/serial"
+	"github.com/stereomonk/xray-core-awg/features"
 )
 
 // IPOption is an object for IP query options.

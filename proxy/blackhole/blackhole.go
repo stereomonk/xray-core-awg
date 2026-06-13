@@ -5,10 +5,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/session"
+	"github.com/stereomonk/xray-core-awg/transport"
+	"github.com/stereomonk/xray-core-awg/transport/internet"
 )
 
 // Handler is an outbound connection that silently swallow the entire payload.

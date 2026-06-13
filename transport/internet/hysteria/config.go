@@ -3,9 +3,9 @@ package hysteria
 import (
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/hysteria/padding"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/transport/internet"
+	"github.com/stereomonk/xray-core-awg/transport/internet/hysteria/padding"
 )
 
 const (

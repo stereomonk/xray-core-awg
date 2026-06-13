@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/stereomonk/xray-core-awg/main/commands/base"
 	"lukechampine.com/blake3"
 )
 

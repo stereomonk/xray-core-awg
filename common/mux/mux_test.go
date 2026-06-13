@@ -5,13 +5,13 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	. "github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	. "github.com/stereomonk/xray-core-awg/common/mux"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/protocol"
+	"github.com/stereomonk/xray-core-awg/common/session"
+	"github.com/stereomonk/xray-core-awg/transport/pipe"
 )
 
 func readAll(reader buf.Reader) (buf.MultiBuffer, error) {

@@ -11,14 +11,14 @@ import (
 	"github.com/sagernet/sing/common/bufio"
 	N "github.com/sagernet/sing/common/network"
 	"github.com/sagernet/sing/common/uot"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/singbridge"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/session"
+	"github.com/stereomonk/xray-core-awg/common/singbridge"
+	"github.com/stereomonk/xray-core-awg/transport"
+	"github.com/stereomonk/xray-core-awg/transport/internet"
 )
 
 func init() {

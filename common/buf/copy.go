@@ -4,9 +4,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/features/stats"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/signal"
+	"github.com/stereomonk/xray-core-awg/features/stats"
 )
 
 type dataHandler func(MultiBuffer)

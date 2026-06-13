@@ -6,11 +6,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/platform"
+	"github.com/stereomonk/xray-core-awg/common/platform/filesystem"
+	"github.com/stereomonk/xray-core-awg/features/outbound"
+	"github.com/stereomonk/xray-core-awg/features/routing"
 )
 
 type Rule struct {

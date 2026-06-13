@@ -91,7 +91,7 @@ const file_proxy_tun_config_proto_rawDesc = "" +
 	"\x03MTU\x18\x02 \x01(\rR\x03MTU\x12\x1d\n" +
 	"\n" +
 	"user_level\x18\x03 \x01(\rR\tuserLevelBL\n" +
-	"\x12com.xray.proxy.tunP\x01Z#github.com/xtls/xray-core/proxy/tun\xaa\x02\x0eXray.Proxy.Tunb\x06proto3"
+	"\x12com.xray.proxy.tunP\x01Z#github.com/stereomonk/xray-core-awg/proxy/tun\xaa\x02\x0eXray.Proxy.Tunb\x06proto3"
 
 var (
 	file_proxy_tun_config_proto_rawDescOnce sync.Once

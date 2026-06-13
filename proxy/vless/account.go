@@ -3,9 +3,9 @@ package vless
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/protocol"
+	"github.com/stereomonk/xray-core-awg/common/uuid"
 )
 
 // AsAccount implements protocol.Account.AsAccount().

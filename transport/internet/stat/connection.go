@@ -3,7 +3,7 @@ package stat
 import (
 	"net"
 
-	"github.com/xtls/xray-core/features/stats"
+	"github.com/stereomonk/xray-core-awg/features/stats"
 )
 
 type Connection interface {

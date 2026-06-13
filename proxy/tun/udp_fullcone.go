@@ -4,8 +4,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	"github.com/stereomonk/xray-core-awg/common/net"
 )
 
 // sub-handler specifically for udp connections under main handler

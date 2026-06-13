@@ -12,14 +12,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/strmatcher"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/stereomonk/xray-core-awg/app/router"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/platform"
+	"github.com/stereomonk/xray-core-awg/common/session"
+	"github.com/stereomonk/xray-core-awg/common/strmatcher"
+	"github.com/stereomonk/xray-core-awg/features/dns"
 )
 
 // DNS is a DNS rely server.

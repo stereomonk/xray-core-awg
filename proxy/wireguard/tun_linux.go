@@ -15,7 +15,7 @@ import (
 
 	"github.com/sagernet/sing/common/control"
 	"github.com/vishvananda/netlink"
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/errors"
 	wgtun "github.com/amnezia-vpn/amneziawg-go/tun"
 )
 

@@ -15,9 +15,9 @@ import (
 
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/xtls/xray-core/common/buf"
-	creflect "github.com/xtls/xray-core/common/reflect"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	creflect "github.com/stereomonk/xray-core-awg/common/reflect"
+	"github.com/stereomonk/xray-core-awg/main/commands/base"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 )

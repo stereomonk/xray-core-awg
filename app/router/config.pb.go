@@ -7,8 +7,8 @@
 package router
 
 import (
-	net "github.com/xtls/xray-core/common/net"
-	serial "github.com/xtls/xray-core/common/serial"
+	net "github.com/stereomonk/xray-core-awg/common/net"
+	serial "github.com/stereomonk/xray-core-awg/common/serial"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -1197,7 +1197,7 @@ const file_app_router_config_proto_rawDesc = "" +
 	"\fIpIfNonMatch\x10\x02\x12\x0e\n" +
 	"\n" +
 	"IpOnDemand\x10\x03BO\n" +
-	"\x13com.xray.app.routerP\x01Z$github.com/xtls/xray-core/app/router\xaa\x02\x0fXray.App.Routerb\x06proto3"
+	"\x13com.xray.app.routerP\x01Z$github.com/stereomonk/xray-core-awg/app/router\xaa\x02\x0fXray.App.Routerb\x06proto3"
 
 var (
 	file_app_router_config_proto_rawDescOnce sync.Once

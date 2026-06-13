@@ -7,16 +7,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/strmatcher"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/stereomonk/xray-core-awg/app/router"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/platform"
+	"github.com/stereomonk/xray-core-awg/common/platform/filesystem"
+	"github.com/stereomonk/xray-core-awg/common/session"
+	"github.com/stereomonk/xray-core-awg/common/strmatcher"
+	"github.com/stereomonk/xray-core-awg/core"
+	"github.com/stereomonk/xray-core-awg/features/dns"
+	"github.com/stereomonk/xray-core-awg/features/routing"
 )
 
 type mphMatcherWrapper struct {

@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/protocol"
 	"lukechampine.com/blake3"
 )
 

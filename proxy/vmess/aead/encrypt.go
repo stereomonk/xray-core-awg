@@ -7,8 +7,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/crypto"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/crypto"
 )
 
 func SealVMessAEADHeader(key [16]byte, data []byte) []byte {

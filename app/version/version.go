@@ -2,8 +2,8 @@ package version
 
 import (
 	"context"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/errors"
 	"strconv"
 	"strings"
 )

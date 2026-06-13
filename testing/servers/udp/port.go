@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/net"
 )
 
 // PickPort returns an unused UDP port in the system. The port returned is highly likely to be unused, but not guaranteed.

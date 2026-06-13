@@ -4,11 +4,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/xtls/xray-core/common/errors"
-	creflect "github.com/xtls/xray-core/common/reflect"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	creflect "github.com/stereomonk/xray-core-awg/common/reflect"
+	"github.com/stereomonk/xray-core-awg/core"
+	"github.com/stereomonk/xray-core-awg/infra/conf"
+	"github.com/stereomonk/xray-core-awg/main/confloader"
 )
 
 func MergeConfigFromFiles(files []*core.ConfigSource) (string, error) {

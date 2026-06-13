@@ -3,18 +3,18 @@ package loopback
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/net/cnc"
+	"github.com/stereomonk/xray-core-awg/common/retry"
+	"github.com/stereomonk/xray-core-awg/common/session"
+	"github.com/stereomonk/xray-core-awg/common/task"
+	"github.com/stereomonk/xray-core-awg/core"
+	"github.com/stereomonk/xray-core-awg/features/routing"
+	"github.com/stereomonk/xray-core-awg/transport"
+	"github.com/stereomonk/xray-core-awg/transport/internet"
 )
 
 type Loopback struct {

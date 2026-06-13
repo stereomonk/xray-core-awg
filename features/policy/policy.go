@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/features"
+	"github.com/stereomonk/xray-core-awg/common/platform"
+	"github.com/stereomonk/xray-core-awg/features"
 )
 
 // Timeout contains limits for connection timeout.

@@ -3,10 +3,10 @@ package conf
 import (
 	"sort"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/utils"
-	"github.com/xtls/xray-core/transport/internet/headers/http"
-	"github.com/xtls/xray-core/transport/internet/headers/noop"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/utils"
+	"github.com/stereomonk/xray-core-awg/transport/internet/headers/http"
+	"github.com/stereomonk/xray-core-awg/transport/internet/headers/noop"
 	"google.golang.org/protobuf/proto"
 )
 

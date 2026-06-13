@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/xtls/xray-core/common"
+	"github.com/stereomonk/xray-core-awg/common"
 )
 
 func init() {

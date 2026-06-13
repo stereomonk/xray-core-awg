@@ -3,9 +3,9 @@ package session
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/session"
+	"github.com/stereomonk/xray-core-awg/features/routing"
 )
 
 // Context is an implementation of routing.Context, which is a wrapper of context.context with session info.

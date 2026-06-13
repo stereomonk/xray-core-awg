@@ -1,4 +1,4 @@
-module github.com/xtls/xray-core
+module github.com/stereomonk/xray-core-awg
 
 go 1.26
 

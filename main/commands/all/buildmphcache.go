@@ -3,9 +3,9 @@ package all
 import (
 	"os"
 
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/stereomonk/xray-core-awg/common/platform"
+	"github.com/stereomonk/xray-core-awg/infra/conf/serial"
+	"github.com/stereomonk/xray-core-awg/main/commands/base"
 )
 
 var cmdBuildMphCache = &base.Command{

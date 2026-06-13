@@ -5,11 +5,11 @@ import (
 	"net"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/signal/done"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/signal/done"
+	core "github.com/stereomonk/xray-core-awg/core"
+	"github.com/stereomonk/xray-core-awg/features/outbound"
 	"google.golang.org/grpc"
 )
 

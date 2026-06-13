@@ -7,16 +7,16 @@ import (
 	_ "net/http/pprof"
 	"strings"
 
-	"github.com/xtls/xray-core/app/observatory"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/signal/done"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/extension"
-	"github.com/xtls/xray-core/features/outbound"
-	feature_stats "github.com/xtls/xray-core/features/stats"
+	"github.com/stereomonk/xray-core-awg/app/observatory"
+	"github.com/stereomonk/xray-core-awg/app/stats"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/signal/done"
+	"github.com/stereomonk/xray-core-awg/core"
+	"github.com/stereomonk/xray-core-awg/features/extension"
+	"github.com/stereomonk/xray-core-awg/features/outbound"
+	feature_stats "github.com/stereomonk/xray-core-awg/features/stats"
 )
 
 type MetricsHandler struct {

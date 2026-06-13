@@ -3,10 +3,10 @@ package conf
 import (
 	"encoding/json"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/http"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/protocol"
+	"github.com/stereomonk/xray-core-awg/common/serial"
+	"github.com/stereomonk/xray-core-awg/proxy/http"
 	"google.golang.org/protobuf/proto"
 )
 

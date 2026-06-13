@@ -1,8 +1,8 @@
 package protocol
 
 import (
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/serial"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/serial"
 )
 
 func (u *User) GetTypedAccount() (Account, error) {

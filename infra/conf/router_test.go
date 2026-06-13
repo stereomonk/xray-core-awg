@@ -9,13 +9,13 @@ import (
 	"time"
 	_ "unsafe"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/serial"
-	. "github.com/xtls/xray-core/infra/conf"
+	"github.com/stereomonk/xray-core-awg/app/router"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/platform"
+	"github.com/stereomonk/xray-core-awg/common/platform/filesystem"
+	"github.com/stereomonk/xray-core-awg/common/serial"
+	. "github.com/stereomonk/xray-core-awg/infra/conf"
 	"google.golang.org/protobuf/proto"
 )
 

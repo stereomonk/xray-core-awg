@@ -8,9 +8,9 @@ import (
 	"time"
 
 	utls "github.com/refraction-networking/utls"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/utils"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/utils"
 )
 
 type Interface interface {

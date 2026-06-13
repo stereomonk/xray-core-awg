@@ -3,10 +3,10 @@ package command
 import (
 	"context"
 
-	"github.com/xtls/xray-core/app/log"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/core"
+	"github.com/stereomonk/xray-core-awg/app/log"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/core"
 	grpc "google.golang.org/grpc"
 )
 

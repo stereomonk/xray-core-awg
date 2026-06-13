@@ -3,11 +3,11 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/proxy/socks"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/protocol"
+	"github.com/stereomonk/xray-core-awg/common/serial"
+	. "github.com/stereomonk/xray-core-awg/infra/conf"
+	"github.com/stereomonk/xray-core-awg/proxy/socks"
 )
 
 func TestSocksInboundConfig(t *testing.T) {

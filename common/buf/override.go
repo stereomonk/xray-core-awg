@@ -1,7 +1,7 @@
 package buf
 
 import (
-	"github.com/xtls/xray-core/common/net"
+	"github.com/stereomonk/xray-core-awg/common/net"
 )
 
 type EndpointOverrideReader struct {

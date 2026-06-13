@@ -3,8 +3,8 @@ package account
 import (
 	"sync"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/protocol"
 
 	"google.golang.org/protobuf/proto"
 )

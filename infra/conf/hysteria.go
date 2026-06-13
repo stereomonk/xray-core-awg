@@ -1,11 +1,11 @@
 package conf
 
 import (
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/hysteria"
-	"github.com/xtls/xray-core/proxy/hysteria/account"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/protocol"
+	"github.com/stereomonk/xray-core-awg/common/serial"
+	"github.com/stereomonk/xray-core-awg/proxy/hysteria"
+	"github.com/stereomonk/xray-core-awg/proxy/hysteria/account"
 	"google.golang.org/protobuf/proto"
 )
 

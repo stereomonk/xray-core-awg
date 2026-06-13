@@ -4,13 +4,13 @@ import (
 	"context"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/signal/done"
-	"github.com/xtls/xray-core/transport"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/net/cnc"
+	"github.com/stereomonk/xray-core-awg/common/serial"
+	"github.com/stereomonk/xray-core-awg/common/signal/done"
+	"github.com/stereomonk/xray-core-awg/transport"
 )
 
 // OutboundListener is a net.Listener for listening gRPC connections.

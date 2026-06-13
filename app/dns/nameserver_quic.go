@@ -9,14 +9,14 @@ import (
 	"time"
 
 	"github.com/apernet/quic-go"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/dns"
-	"github.com/xtls/xray-core/common/session"
-	dns_feature "github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/log"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/protocol/dns"
+	"github.com/stereomonk/xray-core-awg/common/session"
+	dns_feature "github.com/stereomonk/xray-core-awg/features/dns"
+	"github.com/stereomonk/xray-core-awg/transport/internet/tls"
 	"golang.org/x/net/http2"
 )
 

@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
+	"github.com/stereomonk/xray-core-awg/app/router"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/platform"
+	"github.com/stereomonk/xray-core-awg/common/platform/filesystem"
 	"google.golang.org/protobuf/proto"
 )
 

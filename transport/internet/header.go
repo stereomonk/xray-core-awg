@@ -4,8 +4,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/errors"
 )
 
 type PacketHeader interface {

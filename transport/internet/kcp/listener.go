@@ -5,14 +5,14 @@ import (
 	gotls "crypto/tls"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/udp"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	"github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/transport/internet"
+	"github.com/stereomonk/xray-core-awg/transport/internet/stat"
+	"github.com/stereomonk/xray-core-awg/transport/internet/tls"
+	"github.com/stereomonk/xray-core-awg/transport/internet/udp"
 )
 
 type ConnectionID struct {

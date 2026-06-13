@@ -12,8 +12,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/antireplay"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/antireplay"
 )
 
 var (

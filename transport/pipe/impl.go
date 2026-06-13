@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/signal/done"
+	"github.com/stereomonk/xray-core-awg/common"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	"github.com/stereomonk/xray-core-awg/common/signal"
+	"github.com/stereomonk/xray-core-awg/common/signal/done"
 )
 
 type state byte

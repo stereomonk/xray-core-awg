@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common/platform/filesystem"
+	"github.com/stereomonk/xray-core-awg/app/router"
+	"github.com/stereomonk/xray-core-awg/common/platform/filesystem"
 )
 
 func TestDomainMatcherSerialization(t *testing.T) {

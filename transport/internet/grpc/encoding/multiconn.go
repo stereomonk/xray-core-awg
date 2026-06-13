@@ -5,11 +5,11 @@ import (
 	"io"
 	"net"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	xnet "github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/signal/done"
+	"github.com/stereomonk/xray-core-awg/common/buf"
+	"github.com/stereomonk/xray-core-awg/common/errors"
+	xnet "github.com/stereomonk/xray-core-awg/common/net"
+	"github.com/stereomonk/xray-core-awg/common/net/cnc"
+	"github.com/stereomonk/xray-core-awg/common/signal/done"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 )
