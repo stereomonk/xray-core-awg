@@ -73,7 +73,7 @@ func (x DeviceConfig_DomainStrategy) Number() protoreflect.EnumNumber {
 
 // Deprecated: Use DeviceConfig_DomainStrategy.Descriptor instead.
 func (DeviceConfig_DomainStrategy) EnumDescriptor() ([]byte, []int) {
-	return file_proxy_wireguard_config_proto_rawDescGZIP(), []int{1, 0}
+	return file_proxy_wireguard_config_proto_rawDescGZIP(), []int{2, 0}
 }
 
 type PeerConfig struct {
@@ -152,6 +152,170 @@ func (x *PeerConfig) GetAllowedIps() []string {
 	return nil
 }
 
+type AmneziaParamters struct {
+	state         protoimpl.MessageState `protogen:"open.v1"`
+	JC            int32                  `protobuf:"varint,1,opt,name=JC,proto3" json:"JC,omitempty"`
+	JMin          int32                  `protobuf:"varint,2,opt,name=j_min,json=jMin,proto3" json:"j_min,omitempty"`
+	JMax          int32                  `protobuf:"varint,3,opt,name=j_max,json=jMax,proto3" json:"j_max,omitempty"`
+	S1            int32                  `protobuf:"varint,4,opt,name=s1,proto3" json:"s1,omitempty"`
+	S2            int32                  `protobuf:"varint,5,opt,name=s2,proto3" json:"s2,omitempty"`
+	S3            int32                  `protobuf:"varint,6,opt,name=s3,proto3" json:"s3,omitempty"`
+	S4            int32                  `protobuf:"varint,7,opt,name=s4,proto3" json:"s4,omitempty"`
+	H1            string                 `protobuf:"bytes,8,opt,name=h1,proto3" json:"h1,omitempty"`
+	H2            string                 `protobuf:"bytes,9,opt,name=h2,proto3" json:"h2,omitempty"`
+	H3            string                 `protobuf:"bytes,10,opt,name=h3,proto3" json:"h3,omitempty"`
+	H4            string                 `protobuf:"bytes,11,opt,name=h4,proto3" json:"h4,omitempty"`
+	I1            string                 `protobuf:"bytes,12,opt,name=i1,proto3" json:"i1,omitempty"`
+	I2            string                 `protobuf:"bytes,13,opt,name=i2,proto3" json:"i2,omitempty"`
+	I3            string                 `protobuf:"bytes,14,opt,name=i3,proto3" json:"i3,omitempty"`
+	I4            string                 `protobuf:"bytes,15,opt,name=i4,proto3" json:"i4,omitempty"`
+	I5            string                 `protobuf:"bytes,16,opt,name=i5,proto3" json:"i5,omitempty"`
+	unknownFields protoimpl.UnknownFields
+	sizeCache     protoimpl.SizeCache
+}
+
+func (x *AmneziaParamters) Reset() {
+	*x = AmneziaParamters{}
+	mi := &file_proxy_wireguard_config_proto_msgTypes[1]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *AmneziaParamters) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*AmneziaParamters) ProtoMessage() {}
+
+func (x *AmneziaParamters) ProtoReflect() protoreflect.Message {
+	mi := &file_proxy_wireguard_config_proto_msgTypes[1]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use AmneziaParamters.ProtoReflect.Descriptor instead.
+func (*AmneziaParamters) Descriptor() ([]byte, []int) {
+	return file_proxy_wireguard_config_proto_rawDescGZIP(), []int{1}
+}
+
+func (x *AmneziaParamters) GetJC() int32 {
+	if x != nil {
+		return x.JC
+	}
+	return 0
+}
+
+func (x *AmneziaParamters) GetJMin() int32 {
+	if x != nil {
+		return x.JMin
+	}
+	return 0
+}
+
+func (x *AmneziaParamters) GetJMax() int32 {
+	if x != nil {
+		return x.JMax
+	}
+	return 0
+}
+
+func (x *AmneziaParamters) GetS1() int32 {
+	if x != nil {
+		return x.S1
+	}
+	return 0
+}
+
+func (x *AmneziaParamters) GetS2() int32 {
+	if x != nil {
+		return x.S2
+	}
+	return 0
+}
+
+func (x *AmneziaParamters) GetS3() int32 {
+	if x != nil {
+		return x.S3
+	}
+	return 0
+}
+
+func (x *AmneziaParamters) GetS4() int32 {
+	if x != nil {
+		return x.S4
+	}
+	return 0
+}
+
+func (x *AmneziaParamters) GetH1() string {
+	if x != nil {
+		return x.H1
+	}
+	return ""
+}
+
+func (x *AmneziaParamters) GetH2() string {
+	if x != nil {
+		return x.H2
+	}
+	return ""
+}
+
+func (x *AmneziaParamters) GetH3() string {
+	if x != nil {
+		return x.H3
+	}
+	return ""
+}
+
+func (x *AmneziaParamters) GetH4() string {
+	if x != nil {
+		return x.H4
+	}
+	return ""
+}
+
+func (x *AmneziaParamters) GetI1() string {
+	if x != nil {
+		return x.I1
+	}
+	return ""
+}
+
+func (x *AmneziaParamters) GetI2() string {
+	if x != nil {
+		return x.I2
+	}
+	return ""
+}
+
+func (x *AmneziaParamters) GetI3() string {
+	if x != nil {
+		return x.I3
+	}
+	return ""
+}
+
+func (x *AmneziaParamters) GetI4() string {
+	if x != nil {
+		return x.I4
+	}
+	return ""
+}
+
+func (x *AmneziaParamters) GetI5() string {
+	if x != nil {
+		return x.I5
+	}
+	return ""
+}
+
 type DeviceConfig struct {
 	state          protoimpl.MessageState      `protogen:"open.v1"`
 	SecretKey      string                      `protobuf:"bytes,1,opt,name=secret_key,json=secretKey,proto3" json:"secret_key,omitempty"`
@@ -163,13 +327,14 @@ type DeviceConfig struct {
 	DomainStrategy DeviceConfig_DomainStrategy `protobuf:"varint,7,opt,name=domain_strategy,json=domainStrategy,proto3,enum=xray.proxy.wireguard.DeviceConfig_DomainStrategy" json:"domain_strategy,omitempty"`
 	IsClient       bool                        `protobuf:"varint,8,opt,name=is_client,json=isClient,proto3" json:"is_client,omitempty"`
 	NoKernelTun    bool                        `protobuf:"varint,9,opt,name=no_kernel_tun,json=noKernelTun,proto3" json:"no_kernel_tun,omitempty"`
+	Amnezia        *AmneziaParamters           `protobuf:"bytes,10,opt,name=Amnezia,proto3,oneof" json:"Amnezia,omitempty"`
 	unknownFields  protoimpl.UnknownFields
 	sizeCache      protoimpl.SizeCache
 }
 
 func (x *DeviceConfig) Reset() {
 	*x = DeviceConfig{}
-	mi := &file_proxy_wireguard_config_proto_msgTypes[1]
+	mi := &file_proxy_wireguard_config_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -181,7 +346,7 @@ func (x *DeviceConfig) String() string {
 func (*DeviceConfig) ProtoMessage() {}
 
 func (x *DeviceConfig) ProtoReflect() protoreflect.Message {
-	mi := &file_proxy_wireguard_config_proto_msgTypes[1]
+	mi := &file_proxy_wireguard_config_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -194,7 +359,7 @@ func (x *DeviceConfig) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use DeviceConfig.ProtoReflect.Descriptor instead.
 func (*DeviceConfig) Descriptor() ([]byte, []int) {
-	return file_proxy_wireguard_config_proto_rawDescGZIP(), []int{1}
+	return file_proxy_wireguard_config_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *DeviceConfig) GetSecretKey() string {
@@ -260,6 +425,13 @@ func (x *DeviceConfig) GetNoKernelTun() bool {
 	return false
 }
 
+func (x *DeviceConfig) GetAmnezia() *AmneziaParamters {
+	if x != nil {
+		return x.Amnezia
+	}
+	return nil
+}
+
 var File_proxy_wireguard_config_proto protoreflect.FileDescriptor
 
 const file_proxy_wireguard_config_proto_rawDesc = "" +
@@ -274,7 +446,25 @@ const file_proxy_wireguard_config_proto_rawDesc = "" +
 	"\n" +
 	"keep_alive\x18\x04 \x01(\rR\tkeepAlive\x12\x1f\n" +
 	"\vallowed_ips\x18\x05 \x03(\tR\n" +
-	"allowedIps\"\xcb\x03\n" +
+	"allowedIps\"\x9c\x02\n" +
+	"\x10AmneziaParamters\x12\x0e\n" +
+	"\x02JC\x18\x01 \x01(\x05R\x02JC\x12\x13\n" +
+	"\x05j_min\x18\x02 \x01(\x05R\x04jMin\x12\x13\n" +
+	"\x05j_max\x18\x03 \x01(\x05R\x04jMax\x12\x0e\n" +
+	"\x02s1\x18\x04 \x01(\x05R\x02s1\x12\x0e\n" +
+	"\x02s2\x18\x05 \x01(\x05R\x02s2\x12\x0e\n" +
+	"\x02s3\x18\x06 \x01(\x05R\x02s3\x12\x0e\n" +
+	"\x02s4\x18\a \x01(\x05R\x02s4\x12\x0e\n" +
+	"\x02h1\x18\b \x01(\tR\x02h1\x12\x0e\n" +
+	"\x02h2\x18\t \x01(\tR\x02h2\x12\x0e\n" +
+	"\x02h3\x18\n" +
+	" \x01(\tR\x02h3\x12\x0e\n" +
+	"\x02h4\x18\v \x01(\tR\x02h4\x12\x0e\n" +
+	"\x02i1\x18\f \x01(\tR\x02i1\x12\x0e\n" +
+	"\x02i2\x18\r \x01(\tR\x02i2\x12\x0e\n" +
+	"\x02i3\x18\x0e \x01(\tR\x02i3\x12\x0e\n" +
+	"\x02i4\x18\x0f \x01(\tR\x02i4\x12\x0e\n" +
+	"\x02i5\x18\x10 \x01(\tR\x02i5\"\x9e\x04\n" +
 	"\fDeviceConfig\x12\x1d\n" +
 	"\n" +
 	"secret_key\x18\x01 \x01(\tR\tsecretKey\x12\x1a\n" +
@@ -286,7 +476,9 @@ const file_proxy_wireguard_config_proto_rawDesc = "" +
 	"\breserved\x18\x06 \x01(\fR\breserved\x12Z\n" +
 	"\x0fdomain_strategy\x18\a \x01(\x0e21.xray.proxy.wireguard.DeviceConfig.DomainStrategyR\x0edomainStrategy\x12\x1b\n" +
 	"\tis_client\x18\b \x01(\bR\bisClient\x12\"\n" +
-	"\rno_kernel_tun\x18\t \x01(\bR\vnoKernelTun\"\\\n" +
+	"\rno_kernel_tun\x18\t \x01(\bR\vnoKernelTun\x12E\n" +
+	"\aAmnezia\x18\n" +
+	" \x01(\v2&.xray.proxy.wireguard.AmneziaParamtersH\x00R\aAmnezia\x88\x01\x01\"\\\n" +
 	"\x0eDomainStrategy\x12\f\n" +
 	"\bFORCE_IP\x10\x00\x12\r\n" +
 	"\tFORCE_IP4\x10\x01\x12\r\n" +
@@ -294,7 +486,9 @@ const file_proxy_wireguard_config_proto_rawDesc = "" +
 	"\n" +
 	"FORCE_IP46\x10\x03\x12\x0e\n" +
 	"\n" +
-	"FORCE_IP64\x10\x04B^\n" +
+	"FORCE_IP64\x10\x04B\n" +
+	"\n" +
+	"\b_AmneziaB^\n" +
 	"\x18com.xray.proxy.wireguardP\x01Z)github.com/xtls/xray-core/proxy/wireguard\xaa\x02\x14Xray.Proxy.WireGuardb\x06proto3"
 
 var (
@@ -310,20 +504,22 @@ func file_proxy_wireguard_config_proto_rawDescGZIP() []byte {
 }
 
 var file_proxy_wireguard_config_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
-var file_proxy_wireguard_config_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
+var file_proxy_wireguard_config_proto_msgTypes = make([]protoimpl.MessageInfo, 3)
 var file_proxy_wireguard_config_proto_goTypes = []any{
 	(DeviceConfig_DomainStrategy)(0), // 0: xray.proxy.wireguard.DeviceConfig.DomainStrategy
 	(*PeerConfig)(nil),               // 1: xray.proxy.wireguard.PeerConfig
-	(*DeviceConfig)(nil),             // 2: xray.proxy.wireguard.DeviceConfig
+	(*AmneziaParamters)(nil),         // 2: xray.proxy.wireguard.AmneziaParamters
+	(*DeviceConfig)(nil),             // 3: xray.proxy.wireguard.DeviceConfig
 }
 var file_proxy_wireguard_config_proto_depIdxs = []int32{
 	1, // 0: xray.proxy.wireguard.DeviceConfig.peers:type_name -> xray.proxy.wireguard.PeerConfig
 	0, // 1: xray.proxy.wireguard.DeviceConfig.domain_strategy:type_name -> xray.proxy.wireguard.DeviceConfig.DomainStrategy
-	2, // [2:2] is the sub-list for method output_type
-	2, // [2:2] is the sub-list for method input_type
-	2, // [2:2] is the sub-list for extension type_name
-	2, // [2:2] is the sub-list for extension extendee
-	0, // [0:2] is the sub-list for field type_name
+	2, // 2: xray.proxy.wireguard.DeviceConfig.Amnezia:type_name -> xray.proxy.wireguard.AmneziaParamters
+	3, // [3:3] is the sub-list for method output_type
+	3, // [3:3] is the sub-list for method input_type
+	3, // [3:3] is the sub-list for extension type_name
+	3, // [3:3] is the sub-list for extension extendee
+	0, // [0:3] is the sub-list for field type_name
 }
 
 func init() { file_proxy_wireguard_config_proto_init() }
@@ -331,13 +527,14 @@ func file_proxy_wireguard_config_proto_init() {
 	if File_proxy_wireguard_config_proto != nil {
 		return
 	}
+	file_proxy_wireguard_config_proto_msgTypes[2].OneofWrappers = []any{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
 			RawDescriptor: unsafe.Slice(unsafe.StringData(file_proxy_wireguard_config_proto_rawDesc), len(file_proxy_wireguard_config_proto_rawDesc)),
 			NumEnums:      1,
-			NumMessages:   2,
+			NumMessages:   3,
 			NumExtensions: 0,
 			NumServices:   0,
 		},
